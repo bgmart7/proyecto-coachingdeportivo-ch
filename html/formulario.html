@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching Deportivo | Registrarse</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <!-- LOGO y Menù de navegaciòn -->
+            <div class="header__logo logo">
+                <img class="logo__img" src="../img/C;D.png" alt="logo_cd" >
+                <span class="logo__text">Coaching Deportivo</span>
+            </div>
+            <nav class="header__nav nav">
+                <ul class="nav__links">
+                    <li class="nav__link"><a class="nav__a" href="../index.html">Inicio</a></li>
+                    <li class="nav__link"><a class="nav__a" href="./resumen.html">Resumen</a></li>
+                    <li class="nav__link"><a class="nav__a" href="./direccionTecnicaFutbol.html">Dirección técnica de fútbol</a></li>
+                    <li class="nav__link"><a class="nav__a" href="./formulario.html">Registro</a></li>
+                    <li class="nav__link"><a class="nav__a" href="./acercade.html">Acerca de</a></li>
+                </ul>
+            </nav> 
+        </header> 
+        <section class="section">
+            <header class="section__header header-form">
+                <h1 class="header-form__title">Registrate</h1>
+                <span class="header-form__text">Crea un nuevo usuario y contraseña</span>
+            </header>
+            <form class="section__form form" action="#">
+                <label class="form__label" for="n">Nombre</label>
+                <input class="form__input" type="text" id="n">
+                <label class="form__label" for="u">Usuario</label>
+                <input class="form__input" type="text" id="u">
+                <label class="form__label" for="c">Contraseña</label>
+                <input class="form__input" type="password" id="c">
+                <label class="form__label" for="">
+                    Sexo
+                    <select class="form__input" name="" id="">
+                        <option value="">Hombre</option>
+                        <option value="">Mujer</option>
+                        <option value="">Otro</option>
+                    </select>
+                </label>
+                <div class="form__check">
+                    <input class="form__input--check" type="checkbox" name="" id="a">
+                    <label class="form__label--text" for="a">Acepto terminos y condiciones</label> 
+                </div>
+                <input class="form__input--btn" type="submit" value="Registrarse">
+            </form>
+        </section>
+        <!-- footer o pie de página y detalles de autor -->
+        <footer class="footer">
+            <span class="footer__text">Diseñado por Gabriel Martinez | De camino a DEV</span>
+            <span class="footer__text">Desarrollado 2022 | Coder House</span>
+        </footer>
+    </main>
+    
+</body>
+</html>
