@@ -1,0 +1,63 @@
+.header-form__title {
+    font-size: 36px;
+    padding: 20px 0;
+    text-decoration: underline;
+    text-decoration-color: $mainColor;
+
+    &__text {
+        font-weight: normal;
+        font-size: 24px;
+        color: $textColor;
+    }
+}
+
+.form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    min-width: 400px;
+
+    &__label {
+        text-align: left;
+        font-weight: bold;
+
+        &--text {
+            margin-left: 10px;
+        }
+        
+    }
+    &__input {
+        height: 40px;
+        margin-bottom: 20px;
+        padding: 0 10px;
+        border: none;
+        border-bottom: 5px solid $mainColor;
+        background-color: #ffdd0052;
+        outline: none;
+        color: $textColor;
+        font-weight: bold;
+    }
+    &__input--btn {
+        margin: 10px;
+        font-weight: 900;
+        background-color: $mainColor;
+    
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 40px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $hoverColor;
+        }
+    }
+    
+    &__check {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+}

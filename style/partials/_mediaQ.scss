@@ -1,0 +1,91 @@
+/* LOGO */
+
+
+
+
+@media (max-width: 1280px){
+    .header {
+        .nav__link {
+            padding: 5px 10px;
+        }
+    }
+}
+
+@media (max-width: 1125px){
+    .header {
+        .logo__text {
+            display: none;
+        }
+    }
+} 
+
+
+/* NAV y Footer */
+@media (min-width: 769px) and (max-width: 1124px){
+    .header {
+        .nav__link {
+            font-size: medium;
+            padding: 5px 5px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .main {
+        width: 100%;
+    }
+    .header {
+        flex-direction: column;
+        justify-content: center;
+
+        .logo {
+            flex-direction: column;
+        }
+
+        .nav__link {
+            display: block;
+            padding: 5px;
+        }
+
+        .nav__img {
+            display: block;
+            cursor: pointer;
+        }
+    }
+    .logo__text {
+        display: block;
+    }
+    
+    
+    .footer__text {
+        display: block;
+    }
+}
+/*Section Main*/
+@media (max-width:1020px){
+    .article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 50px;
+        background-color: #ffdd0049;
+        padding: 40px;
+    }
+    .article--r {
+        @extend .article;
+        max-width: 100%;
+    }
+}
+/* AERCA DE */
+@media (max-width: 800px){
+    .links-ad__link {
+        display: block;
+        margin: 5px 0;
+    }
+    .rrss-ad__btn {
+        display: block;
+        margin: 20px auto;
+        min-width: 200px;
+    }
+}
