@@ -72,7 +72,7 @@ body .main {
 }
 
 .section {
-  max-width: 1180px;
+  max-width: 80%;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -221,13 +221,21 @@ body .main {
   color: white;
 }
 
+.section__main-form {
+  min-width: 100%;
+}
+
+.section--form {
+  margin: 0 auto;
+  min-width: 500px;
+}
+
 .form {
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
-  min-width: 400px;
 }
 .form__label {
   text-align: left;
@@ -251,6 +259,7 @@ body .main {
   margin: 10px;
   font-weight: 900;
   background-color: #FFDB00;
+  border: none;
   display: inline-block;
   text-decoration: none;
   padding: 10px 40px;
@@ -317,8 +326,13 @@ body .main {
   .logo__text {
     display: block;
   }
-  .footer__text {
-    display: block;
+  .section--form {
+    margin: 25px 0;
+    min-width: 400px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
   }
 }
 /*Section Main*/

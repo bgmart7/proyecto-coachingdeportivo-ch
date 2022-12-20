@@ -55,10 +55,15 @@
     .logo__text {
         display: block;
     }
+
+    .section--form {
+        margin: 25px 0;
+        min-width: 400px;
+    }    
     
-    
-    .footer__text {
-        display: block;
+    .footer {
+        display: flex;
+        flex-direction: column;
     }
 }
 /*Section Main*/
@@ -79,6 +84,9 @@
 }
 /* AERCA DE */
 @media (max-width: 800px){
+    .section {
+        
+    }
     .links-ad__link {
         display: block;
         margin: 5px 0;

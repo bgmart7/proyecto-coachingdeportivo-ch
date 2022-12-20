@@ -11,13 +11,22 @@
     }
 }
 
+.section__main-form {
+    min-width: 100%;
+}
+
+.section--form {
+    margin: 0 auto;
+    min-width: 500px;
+}
+
 .form {
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
-    min-width: 400px;
+    // max-width: 960px;
 
     &__label {
         text-align: left;
@@ -43,6 +52,7 @@
         margin: 10px;
         font-weight: 900;
         background-color: $mainColor;
+        border: none;
     
         display: inline-block;
         text-decoration: none;
